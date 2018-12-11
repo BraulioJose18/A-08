@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InicioFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="premium"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />-->
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_dark"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="sans-serif"
+                android:text="Premium"
+                android:textColor="@android:color/background_light"
+                android:textSize="30sp" />
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="290dp"
+                android:layout_height="380dp"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:background="@drawable/venomm"
+                android:contentDescription="mi_lista"
+                android:scaleType="fitCenter"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="80dp"
+                tools:layout_editor_absoluteY="96dp" />
+
+
+            <Button
+                android:id="@+id/verAnabelleView"
+                style="@android:style/Widget.DeviceDefault.Button"
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:background="#910800"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="venom"
+                android:textAllCaps="false"
+                android:textColor="@android:color/background_light"
+                android:textIsSelectable="true"
+                android:textSize="14sp"
+                android:typeface="sans" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="290dp"
+                android:layout_height="380dp"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:background="@drawable/robin"
+                android:contentDescription="mi_lista"
+                android:scaleType="centerCrop"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="80dp"
+                tools:layout_editor_absoluteY="96dp" />
+
+
+            <Button
+                android:id="@+id/button2"
+                style="@android:style/Widget.DeviceDefault.Button"
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:background="#910800"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="robin"
+                android:textAllCaps="false"
+                android:textColor="@android:color/background_light"
+                android:textIsSelectable="true"
+                android:textSize="14sp"
+                android:typeface="sans"
+                />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="290dp"
+                android:layout_height="380dp"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:background="@drawable/halloween"
+                android:contentDescription="mi_lista"
+                android:scaleType="centerCrop"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="80dp"
+                tools:layout_editor_absoluteY="96dp" />
+
+
+            <Button
+                android:id="@+id/button3"
+                style="@android:style/Widget.DeviceDefault.Button"
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:background="#910800"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="halloween"
+                android:textAllCaps="false"
+                android:textColor="@android:color/background_light"
+                android:textIsSelectable="true"
+                android:textSize="14sp"
+                android:typeface="sans" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="290dp"
+                android:layout_height="380dp"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:background="@drawable/bohemian"
+                android:contentDescription="mi_lista"
+                android:scaleType="centerCrop"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="80dp"
+                tools:layout_editor_absoluteY="96dp" />
+
+
+            <Button
+                android:id="@+id/button4"
+                style="@android:style/Widget.DeviceDefault.Button"
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:background="#910800"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="bohemian"
+                android:textAllCaps="false"
+                android:textColor="@android:color/background_light"
+                android:textIsSelectable="true"
+                android:textSize="14sp"
+                android:typeface="sans"
+                />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="290dp"
+                android:layout_height="380dp"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:background="@drawable/deseo"
+                android:contentDescription="mi_lista"
+                android:scaleType="centerCrop"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="80dp"
+                tools:layout_editor_absoluteY="96dp" />
+
+
+            <Button
+                android:id="@+id/button5"
+                style="@android:style/Widget.DeviceDefault.Button"
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:background="#910800"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Deseo de Matar"
+                android:textAllCaps="false"
+                android:textColor="@android:color/background_light"
+                android:textIsSelectable="true"
+                android:textSize="14sp"
+                android:typeface="sans" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="290dp"
+                android:layout_height="380dp"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:background="@drawable/busqueda"
+                android:contentDescription="mi_lista"
+                android:scaleType="centerCrop"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="80dp"
+                tools:layout_editor_absoluteY="96dp" />
+
+
+            <Button
+                android:id="@+id/button6"
+                style="@android:style/Widget.DeviceDefault.Button"
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:background="#910800"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="busqueda implacable"
+                android:textAllCaps="false"
+                android:textColor="@android:color/background_light"
+                android:textIsSelectable="true"
+                android:textSize="14sp"
+                android:typeface="sans"
+
+                />
+
+
+        </android.support.v7.widget.LinearLayoutCompat>
+    </android.support.v4.widget.NestedScrollView>
+
+</FrameLayout>

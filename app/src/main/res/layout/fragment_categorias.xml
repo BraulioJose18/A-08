@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InicioFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_dark"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textViewCategoria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Categorias(6)"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageViewAccion"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_marginLeft="50dp"
+                android:src="@drawable/accion" />
+
+            <Button
+                android:id="@+id/botonaccion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:text="Accion"
+                android:textAlignment="center"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imageViewFiccion"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_marginLeft="50dp"
+                android:src="@drawable/ficcion" />
+
+            <Button
+                android:id="@+id/botonficcion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:text="Ficcion"
+                android:textAlignment="center"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imageViewComedia"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_marginLeft="50dp"
+                android:src="@drawable/comedia" />
+
+            <Button
+                android:id="@+id/botoncomedia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:text="Comedia"
+                android:textAlignment="center"
+                android:textStyle="bold|italic" />
+
+
+            <ImageView
+                android:id="@+id/imageViewAnimacion"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_marginLeft="50dp"
+                android:src="@drawable/animacion" />
+
+            <Button
+                android:id="@+id/botonanimacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:text="Animacion"
+                android:textAlignment="center"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imageViewTerror"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_marginLeft="50dp"
+                android:src="@drawable/terror" />
+
+            <Button
+                android:id="@+id/botonterror"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:text="Terror"
+                android:textAlignment="center"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imageViewMusicales"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_marginLeft="50dp"
+                android:src="@drawable/musicales" />
+
+            <Button
+                android:id="@+id/botonmusicales"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:text="Musicales"
+                android:textAlignment="center"
+                android:textStyle="bold|italic" />
+
+
+
+        </android.support.v7.widget.LinearLayoutCompat>
+    </android.support.v4.widget.NestedScrollView>
+
+</FrameLayout>

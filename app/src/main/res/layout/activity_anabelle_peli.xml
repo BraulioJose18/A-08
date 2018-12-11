@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".AnabellePeli">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="38dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="8dp"
+                android:text="Annabell 2"
+                android:textColor="@android:color/white"
+                android:textSize="23sp"
+                tools:layout_editor_absoluteX="50dp"
+                tools:layout_editor_absoluteY="50dp" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="289dp"
+                app:srcCompat="@drawable/anabelle"
+                tools:layout_editor_absoluteX="80dp"
+                tools:layout_editor_absoluteY="74dp" />
+
+            <ImageView
+                android:id="@+id/imageView110"
+                android:layout_width="146dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="110dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/estrellas"
+                tools:layout_editor_absoluteY="310dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="331dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="John a encontrado el regalo que tanto andaba buscando Mia, su esposa embarazada: Annabelle, una muñeca con un vestido de novia. Pero una noche, la casa de John y Mia es asaltada por los miembros de una secta satánica que terminan por atacar de forma violenta a la pareja. Los asaltantes dejan trás de sí sangre derramada, un terrible trauma... y un conjuro que dota de una identidad malvada a Annabelle "
+                android:textColor="@android:color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.142"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView110" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="Título: Annabelle
+        Director: John R. Leonetti
+        Pais: Estados Unidos
+        Año: 2014
+        Duración: 98 min.
+        Genero: Terror.
+        Producción: Warner Bros. Pictures."
+                android:textColor="@android:color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.142"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView110" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="126dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="120dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:background="#910800"
+                android:padding="5dp"
+                android:paddingTop="25dp"
+                android:text="Quitar de Lista"
+                android:textColor="@android:color/white" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="wrap_content"
+                android:layout_height="181dp"
+                android:layout_marginTop="25dp"
+                app:srcCompat="@drawable/trailerana" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:padding="3dp"
+                android:text="Comentarios"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="wrap_content"
+                android:layout_height="394dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                app:srcCompat="@drawable/comentarios" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
